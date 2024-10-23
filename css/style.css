@@ -567,19 +567,8 @@ video {
   position: relative;
 }
 
-.inset-0 {
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-}
-
 .bottom-0 {
   bottom: 0px;
-}
-
-.bottom-3 {
-  bottom: 0.75rem;
 }
 
 .left-0 {
@@ -588,6 +577,10 @@ video {
 
 .right-0 {
   right: 0px;
+}
+
+.top-0 {
+  top: 0px;
 }
 
 .-mt-12 {
@@ -670,10 +663,6 @@ video {
   width: 3rem;
 }
 
-.w-2\/5 {
-  width: 40%;
-}
-
 .w-32 {
   width: 8rem;
 }
@@ -702,56 +691,8 @@ video {
   width: 100vw;
 }
 
-.w-1\/2 {
-  width: 50%;
-}
-
-.w-1\/3 {
-  width: 33.333333%;
-}
-
-.w-2\/3 {
-  width: 66.666667%;
-}
-
-.w-2\/4 {
-  width: 50%;
-}
-
-.w-60 {
-  width: 15rem;
-}
-
-.w-52 {
-  width: 13rem;
-}
-
-.w-auto {
-  width: auto;
-}
-
 .max-w-3xl {
   max-width: 48rem;
-}
-
-.max-w-lg {
-  max-width: 32rem;
-}
-
-.max-w-\[200px\] {
-  max-width: 200px;
-}
-
-.max-w-\[500px\] {
-  max-width: 500px;
-}
-
-.max-w-\[800px\] {
-  max-width: 800px;
-}
-
-.max-w-6xl {
-  max-width: 72rem;
 }
 
 .-translate-y-1\/2 {
@@ -801,10 +742,6 @@ video {
 
 .gap-8 {
   gap: 2rem;
-}
-
-.overflow-hidden {
-  overflow: hidden;
 }
 
 .overflow-y-auto {
@@ -898,22 +835,6 @@ video {
   padding: 1.5rem;
 }
 
-.p-8 {
-  padding: 2rem;
-}
-
-.p-12 {
-  padding: 3rem;
-}
-
-.p-32 {
-  padding: 8rem;
-}
-
-.p-20 {
-  padding: 5rem;
-}
-
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -932,36 +853,6 @@ video {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
-.px-20 {
-  padding-left: 5rem;
-  padding-right: 5rem;
-}
-
-.px-32 {
-  padding-left: 8rem;
-  padding-right: 8rem;
-}
-
-.px-16 {
-  padding-left: 4rem;
-  padding-right: 4rem;
-}
-
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
 }
 
 .pt-4 {
@@ -1072,12 +963,12 @@ video {
     display: none;
   }
 
-  .md\:w-4\/5 {
-    width: 80%;
-  }
-
   .md\:w-2\/5 {
     width: 40%;
+  }
+
+  .md\:w-4\/5 {
+    width: 80%;
   }
 
   .md\:grid-cols-3 {
@@ -1098,9 +989,5 @@ video {
 
   .md\:p-4 {
     padding: 1rem;
-  }
-
-  .md\:p-6 {
-    padding: 1.5rem;
   }
 }
