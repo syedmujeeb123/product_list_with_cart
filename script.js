@@ -890,6 +890,7 @@ function calculateOrderTotal() {
 }
 
 const body = document.querySelector("body");
+body.classList.remove("overflow-hidden");
 confirmBtn.addEventListener("click", () => {
   confirmOrderContainer.classList.remove("hidden");
   body.classList.add("overflow-hidden");
